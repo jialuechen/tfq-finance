@@ -2,7 +2,6 @@
 <img src="assets/tfq-finance.png" width="40%" loc>
 
 [![PyPI version](https://badge.fury.io/py/tfq-finance.svg)](https://badge.fury.io/py/tfq-finance)
-[![Build Status](https://travis-ci.com/jialuechen/tfq-finance.svg?branch=main)](https://travis-ci.com/jialuechen/tfq-finance)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python version](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 ![Downloads](https://img.shields.io/pypi/dm/tfq-finance)
