@@ -1,0 +1,9 @@
+tensorflow==2.15.0
+tensorflow-quantum
+cirq
+numpy
+sympy
+scipy
+pandas
+matplotlib
+scikit-learn
