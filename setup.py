@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='TFQ-Finance',
-    version='1.0.0',
-    description='A quantum machine learning library for quantitative finance built on TensorFlow Quantum',
+    name='tfq-finance',
+    version='1.0.1',
+    description='A quantum machine learning library for quantitative finance built on top of TensorFlow Quantum',
     author='jialuechen',
     author_email='jialuechen@outlook.com',
     url='https://github.com/jialuechen/tfq-finance',
