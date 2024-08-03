@@ -7,13 +7,16 @@
 ![Downloads](https://img.shields.io/pypi/dm/tfq-finance)
 [![Coverage Status](https://coveralls.io/repos/github/jialuechen/tfq-finance/badge.svg?branch=main)](https://coveralls.io/github/jialuechen/tfq-finance?branch=main)
 [![Documentation Status](https://readthedocs.org/projects/tfq-finance/badge/?version=latest)](https://tfq-finance.readthedocs.io/en/latest/?badge=latest)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/jialuechen/tfq-finance/issues)
 
 </div>
 
 
+<div>
 
 # TFQ-Finance
+   
+</div>
+
 
 TFQ-Finance is a cutting-edge quantum finance package built on TensorFlow Quantum. It provides a comprehensive suite of tools for financial modeling, risk management, portfolio optimization, and machine learning applications. This package leverages the power of quantum computing to deliver unprecedented performance and accuracy in financial analytics.
 
