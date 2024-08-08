@@ -6,6 +6,7 @@
 ![Python versions](https://img.shields.io/badge/python-3.7|3.8|3.9|3.10|3.11-orange)
 ![Downloads](https://img.shields.io/pypi/dm/tfq-finance)
 [![Coverage Status](https://coveralls.io/repos/github/jialuechen/tfq-finance/badge.svg?branch=main)](https://coveralls.io/github/jialuechen/tfq-finance?branch=main)
+
 [![Documentation Status](https://readthedocs.org/projects/tfq-finance/badge/?version=latest)](https://tfq-finance.readthedocs.io/en/latest/?badge=latest)
 
 </div>
