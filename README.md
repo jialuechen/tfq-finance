@@ -63,19 +63,24 @@ pip install tfq-finance
 
 ## Usage (check out more in the examples folder)
 
-### Example: Option Pricing
+### Example: Barrier Option Pricing
 
 ```python
-from tfq_finance.pricing.equity.option_pricing import price_option
+from tfq_finance.pricing.exotic.exotic_option_pricing import price_barrier_option
 
-spot_price = 100
-strike_price = 105
-time_to_maturity = 1
-volatility = 0.2
-risk_free_rate = 0.05
+def barrier_option_pricing_example():
+    spot_price = 100
+    strike_price = 105
+    barrier_level = 110
+    time_to_maturity = 1
+    volatility = 0.2
+    risk_free_rate = 0.05
 
-option_price = price_option(spot_price, strike_price, time_to_maturity, volatility, risk_free_rate)
-print("Option Price:", option_price)
+    barrier_option_price = price_barrier_option(spot_price, strike_price, barrier_level, time_to_maturity, volatility, risk_free_rate)
+    print("Barrier Option Price:", barrier_option_price)
+
+if __name__ == "__main__":
+    barrier_option_pricing_example()
 ```
 
 ### Example: Portfolio Optimization
@@ -130,19 +135,22 @@ liquidity_plan = manage_liquidity(cash_flows, liquidity_needs)
 print("Liquidity Management Plan:", liquidity_plan)
 ```
 
-### Example: Exotic Option Pricing
-
+### Example: Variance Swap Pricing
 ```python
-from tfq_finance.pricing.exotic.exotic_option_pricing import price_exotic_option
+from tfq_finance.pricing.equity.variance_swap_pricing import price_variance_swap
 
-spot_price = 100
-strike_price = 105
-time_to_maturity = 1
-volatility = 0.2
-risk_free_rate = 0.05
+def variance_swap_pricing_example():
+    spot_price = 100
+    strike_price = 105
+    time_to_maturity = 1
+    volatility = 0.2
+    risk_free_rate = 0.05
 
-exotic_option_price = price_exotic_option(spot_price, strike_price, time_to_maturity, volatility, risk_free_rate)
-print("Exotic Option Price:", exotic_option_price)
+    variance_swap_price = price_variance_swap(spot_price, strike_price, time_to_maturity, volatility, risk_free_rate)
+    print("Variance Swap Price:", variance_swap_price)
+
+if __name__ == "__main__":
+    variance_swap_pricing_example()
 ```
 
 ### Example: Spread Option Pricing
