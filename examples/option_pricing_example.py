@@ -1,4 +1,4 @@
-from pricing.equity.option_pricing import price_option
+from tfq_finance.pricing.equity.option_pricing import price_option
 
 def option_pricing_example():
     spot_price = 100

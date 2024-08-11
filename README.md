@@ -61,7 +61,7 @@ Quantum finance applies quantum computing and quantum information theories to so
 pip install tfq-finance
 ```
 
-## Usage
+## Usage (check out more in the examples folder)
 
 ### Example: Option Pricing
 
