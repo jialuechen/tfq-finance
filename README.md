@@ -12,7 +12,7 @@
 </div>
 
 
-TFQ-Finance is a cutting-edge quantum finance package built on TensorFlow Quantum. It provides a comprehensive suite of tools for financial modeling, risk management, portfolio optimization, and machine learning applications. This package leverages the power of quantum computing to deliver unprecedented performance and accuracy in financial analytics.
+**TFQ-Finance** is a cutting-edge quantum finance package built on TensorFlow Quantum. It provides a comprehensive suite of tools for financial modeling, risk management, portfolio optimization, and machine learning applications. This package leverages the power of quantum computing to deliver unprecedented performance and accuracy in financial analytics.
 
 ## Background on Quantum Finance
 
